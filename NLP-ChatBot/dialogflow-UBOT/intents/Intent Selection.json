@@ -1,0 +1,104 @@
+{
+  "id": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "name": "Intent Selection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "IntentSelection-followup",
+          "lifespan": 4
+        },
+        {
+          "name": "IntentSelection-courses-field-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9090639d-04c4-4734-8244-7aff1a3eaf09",
+          "name": "depart_name",
+          "required": false,
+          "dataType": "@depart_name",
+          "value": "$depart_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "80e077d0-54f8-4b55-917d-45e14624ea0f",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This course is currently unavailable please try again later."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Dialogflow across platforms",
+                  "rawUrl": "https://c1.wallpaperflare.com/preview/150/42/532/airport-departures-display-panels.jpg",
+                  "type": "image"
+                },
+                {
+                  "subtitle": "Click here to visit Jinnah Airport ",
+                  "type": "info",
+                  "actionLink": "https://karachiairport.com.pk/schedule.aspx"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Bookings"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

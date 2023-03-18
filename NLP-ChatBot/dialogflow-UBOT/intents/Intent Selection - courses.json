@@ -1,0 +1,48 @@
+{
+  "id": "a72c1879-f33f-4f35-9e3d-de513465d94a",
+  "parentId": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "rootParentId": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "name": "Intent Selection - courses",
+  "auto": true,
+  "contexts": [
+    "IntentSelection-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntentSelection.IntentSelection-custom",
+      "affectedContexts": [
+        {
+          "name": "IntentSelection-courses-followup",
+          "lifespan": 3
+        },
+        {
+          "name": "IntentSelection-courses-field-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I apologize for the inconvenience. An error has occurred on our server, but we are working to resolve it and will be back online shortly"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

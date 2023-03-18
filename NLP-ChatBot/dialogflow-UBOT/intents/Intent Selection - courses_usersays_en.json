@@ -1,0 +1,54 @@
+[
+  {
+    "id": "d66762ed-d470-4a6d-a30e-155e1a2e21c7",
+    "data": [
+      {
+        "text": "Software Engineering",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e46ac0f-6f0d-4e2d-a9b6-ec42a084edae",
+    "data": [
+      {
+        "text": "SE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f5b6b1e-1f24-491b-a3ca-270fc379720f",
+    "data": [
+      {
+        "text": "CS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cca0f12b-7965-493d-aad5-be802746b1cf",
+    "data": [
+      {
+        "text": "Computer Science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "fdf7afaa-9005-473b-91b0-79ef1eb06236",
+  "parentId": "a72c1879-f33f-4f35-9e3d-de513465d94a",
+  "rootParentId": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "name": "Intent Selection - courses - field",
+  "auto": true,
+  "contexts": [
+    "IntentSelection-courses-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntentSelection.IntentSelection-custom.IntentSelection-courses-custom",
+      "affectedContexts": [
+        {
+          "name": "IntentSelection-courses-field-followup",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b7ade2ba-e9dc-40e5-bf1d-2771df09efa6",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4388ca1a-f975-4dc9-a295-cdb56838c3bf",
+          "name": "ordinal",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "value": "$ordinal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, the Course list for this semester is unavailable"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

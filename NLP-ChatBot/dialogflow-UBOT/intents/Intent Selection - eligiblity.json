@@ -1,0 +1,68 @@
+{
+  "id": "337e08de-cee0-42cb-bab3-41cdf18da33e",
+  "parentId": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "rootParentId": "305ac0bb-c566-4eba-a36e-ac49b8c91d76",
+  "name": "Intent Selection - eligiblity",
+  "auto": true,
+  "contexts": [
+    "IntentSelection-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntentSelection.IntentSelection-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1c55aad6-45b2-4fe1-a9d3-ddd708eaad8c",
+          "name": "percentage",
+          "required": false,
+          "dataType": "@sys.percentage",
+          "value": "$percentage",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5c3ba9a7-9460-4a57-8eac-3d5580d697f4",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I apologize for the inconvenience. An error has occurred on our server, but we are working to resolve it and will be back online shortly"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

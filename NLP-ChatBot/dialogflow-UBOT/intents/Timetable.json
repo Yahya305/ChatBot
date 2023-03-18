@@ -1,0 +1,46 @@
+{
+  "id": "737d8354-6365-4f33-9faf-77274505216a",
+  "name": "Timetable",
+  "auto": true,
+  "contexts": [
+    "IntentSelection-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Timetable-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "IntentSelection-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I apologize for the inconvenience. An error has occurred on our server, but we are working to resolve it and will be back online shortly"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

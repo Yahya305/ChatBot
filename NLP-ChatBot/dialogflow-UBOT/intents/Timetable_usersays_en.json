@@ -1,0 +1,28 @@
+[
+  {
+    "id": "d20ea1bc-1258-4eb2-9c4a-71de8d2e038a",
+    "data": [
+      {
+        "text": "Software Engineering",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4fc95a6-62ae-476f-bd4e-537e43fc1c96",
+    "data": [
+      {
+        "text": "Computer Science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

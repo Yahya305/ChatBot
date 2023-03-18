@@ -1,0 +1,68 @@
+{
+  "id": "a31e40ce-4443-4129-b0f6-0ae38e27eaf1",
+  "parentId": "737d8354-6365-4f33-9faf-77274505216a",
+  "rootParentId": "737d8354-6365-4f33-9faf-77274505216a",
+  "name": "Timetable - Year",
+  "auto": true,
+  "contexts": [
+    "Timetable-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Timetable.Timetable-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1978836a-e8aa-46bf-9ac6-40756c4c89f8",
+          "name": "ordinal",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "value": "$ordinal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5346c8ee-dd0d-4ffe-ad95-961a832268ac",
+          "name": "number-integer",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "value": "$number-integer",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Pata nhi kia hooa"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

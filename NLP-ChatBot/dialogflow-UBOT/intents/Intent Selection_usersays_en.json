@@ -1,0 +1,265 @@
+[
+  {
+    "id": "1f45113a-ac9e-4718-a1e5-43d143e01b81",
+    "data": [
+      {
+        "text": "Schedule of classes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7104a454-ad18-4ad7-b73f-1d48c51ffe98",
+    "data": [
+      {
+        "text": "Give me the timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91670b5c-3256-4341-88da-8db64f453102",
+    "data": [
+      {
+        "text": "What are the timings of my classes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2bac911-f54c-42fd-bacc-e92914a355da",
+    "data": [
+      {
+        "text": "Can you tell me the schedule for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s classes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4313e58b-afad-4028-b356-1fa963a328f9",
+    "data": [
+      {
+        "text": "What is the timetable for my courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "251ea74f-70d0-4378-b1dc-cc7a0f42637b",
+    "data": [
+      {
+        "text": "I want to know the schedule of my classes.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f417651-6508-4ad9-bd1d-b4550583b8f1",
+    "data": [
+      {
+        "text": "Can you show me the timetable?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5b8dd2d-725d-4dac-b2df-fb4bb1be5602",
+    "data": [
+      {
+        "text": "Can you show me the timetable for this semester?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "884c72df-ce0c-466d-a09f-e376fe730165",
+    "data": [
+      {
+        "text": "What are the courses offered in the BS program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe42b33b-a8cb-4da2-9efb-77ed80ab21be",
+    "data": [
+      {
+        "text": "Can you list the courses in the BS program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83ca6e0a-dac9-45e3-9d40-8a4ceee2e07a",
+    "data": [
+      {
+        "text": "Could you provide me with more information about the courses in the BS program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "514a6453-cc54-4404-a2fa-10d8353173ab",
+    "data": [
+      {
+        "text": "Can you tell me about the courses in the BS program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3dddb80c-c404-4515-ad18-3fd5db7410b9",
+    "data": [
+      {
+        "text": "What courses are there in BS program?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a563109-c2c1-49b2-a608-abc7e40f478e",
+    "data": [
+      {
+        "text": "I want to take admission in ",
+        "userDefined": false
+      },
+      {
+        "text": "UBIT",
+        "meta": "@depart_name",
+        "alias": "depart_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb3d6868-ad40-4bfc-ad27-45bd49197188",
+    "data": [
+      {
+        "text": "What are the requirements for new admissions?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6ae7719-16f7-44ef-9d34-44d642ac28e7",
+    "data": [
+      {
+        "text": "Tell me more about the admissions process.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87191f69-2c03-4c2c-a93f-1efde533c932",
+    "data": [
+      {
+        "text": "New Admissions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c99aff81-6b08-4d51-9126-af586f133d74",
+    "data": [
+      {
+        "text": "Courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35ac3719-0784-4f81-8220-95630aafdda1",
+    "data": [
+      {
+        "text": "Timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

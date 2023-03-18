@@ -1,0 +1,51 @@
+{
+  "id": "d35d2e9e-6ec9-4915-914a-ffcfecbdfc2f",
+  "name": "About",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0a81236e-8dcf-4c05-817b-4742212f2009",
+          "name": "depart_name",
+          "required": false,
+          "dataType": "@depart_name",
+          "value": "$depart_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "UBIT, also known as Umaer Basha Institute of Information and Technology, is a leading educational institution that offers various programs in computer science and software engineering at the BS, MS, and PHD levels. Our team comprises experienced and dedicated staff who are committed to providing our students with a top-quality education that is continuously updated with the latest technology trends. We believe in empowering our students by offering them numerous career opportunities and collaborating with reputed organizations to provide comprehensive counseling services."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

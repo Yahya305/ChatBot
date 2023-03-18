@@ -1,0 +1,124 @@
+[
+  {
+    "id": "55ea0ea3-05c4-4a19-902b-ab502dca38a7",
+    "data": [
+      {
+        "text": "80",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca40f71a-101e-412d-b207-20583d519a1f",
+    "data": [
+      {
+        "text": "My percentage in intermediate is ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": true
+      },
+      {
+        "text": "%",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6995a79-eef0-4698-9f83-27712b8470d7",
+    "data": [
+      {
+        "text": "My marks in intermediate are ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": true
+      },
+      {
+        "text": "%.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7f8cb600-a168-4a90-906b-a8a055ecbef3",
+    "data": [
+      {
+        "text": "I scored ",
+        "userDefined": false
+      },
+      {
+        "text": "80",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": true
+      },
+      {
+        "text": "% in intermediate.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3ce1744-3b28-497b-94d4-32f190f5dff7",
+    "data": [
+      {
+        "text": "80",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": true
+      },
+      {
+        "text": "%",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41c53df9-ec23-4a85-a166-775893e87b48",
+    "data": [
+      {
+        "text": "My percentage was ",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

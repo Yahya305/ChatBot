@@ -1,0 +1,91 @@
+[
+  {
+    "id": "d6e72be4-8cc9-4b28-91fc-04729043f5de",
+    "data": [
+      {
+        "text": "About UBIT",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3d46a73-f2c6-49fb-91d2-d6b00fd03526",
+    "data": [
+      {
+        "text": "information about ",
+        "userDefined": false
+      },
+      {
+        "text": "UBIT",
+        "meta": "@depart_name",
+        "alias": "depart_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14c4b440-e9ba-4ff2-9927-54c8f82a5fdc",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "UBIT",
+        "meta": "@depart_name",
+        "alias": "depart_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8bcac2bb-53b2-473c-936e-03202c7928b8",
+    "data": [
+      {
+        "text": "tell me more about ",
+        "userDefined": false
+      },
+      {
+        "text": "UBIT",
+        "meta": "@depart_name",
+        "alias": "depart_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f90712ed-673e-4ef6-af72-d1121057ae1a",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "UBIT",
+        "meta": "@depart_name",
+        "alias": "depart_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
