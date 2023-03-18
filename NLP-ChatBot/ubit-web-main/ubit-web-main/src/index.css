@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 p-0 box-border w-full min-h-screen
+}
+
+li {
+  @apply text-xs sm:text-sm md:text-base hover:text-gray-300
+}
+
+section {
+  @apply flex items-start justify-center w-full p-5 flex-col
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply p-2 py-4 text-3xl font-bold
+}
+
+p {
+  @apply p-2 py-3 text-sm sm:text-base md:text-lg
+
+}
+.outline-white {
+  outline: 2px solid white;
+  border-radius: 20px;
+}
+.dash-img {
+  height: 450px;
+  width: 100vw;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .dash-img {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .dash-img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .dash-img {
+    height: 30vh;
+  }
+}

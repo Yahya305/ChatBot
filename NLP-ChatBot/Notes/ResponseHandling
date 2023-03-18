@@ -1,0 +1,1 @@
+> use req.body.queryResult.queryText for to get what the user said.
