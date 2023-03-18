@@ -44,6 +44,7 @@ const handleCourses = async (req, res) => {
       const findImg = await Image.find({
         $and: [{ title: `semester ${semester}` }, { field: field }],
       });
+      console.log(findImg[0])
       // res.status(200).json({ findNote });
       const response = {
         fulfillmentMessages: [
