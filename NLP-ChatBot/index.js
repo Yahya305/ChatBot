@@ -9,7 +9,7 @@ const port = 5000;
 
 app.use(
   cors({
-    origin: "http://localhost:5500",
+    origin: "http://localhost:3000",
   })
 );
 connectMongo();
@@ -126,7 +126,7 @@ app.post("/", (req, res) => {
 
 
 
-
+  // https://87fd-2400-adc1-450-6f00-18fe-4b98-8bdb-c2f2.in.ngrok.io/dialogflow
 
 
 
